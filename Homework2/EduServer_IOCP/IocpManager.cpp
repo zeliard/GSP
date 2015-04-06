@@ -19,13 +19,13 @@ BOOL DisconnectEx(SOCKET hSocket, LPOVERLAPPED lpOverlapped, DWORD dwFlags, DWOR
 	return 0;
 }
 
+/* 참고: 최신 버전의 Windows SDK에서는 그냥 구현되어 있음
 BOOL AcceptEx(SOCKET sListenSocket, SOCKET sAcceptSocket, PVOID lpOutputBuffer, DWORD dwReceiveDataLength,
 	DWORD dwLocalAddressLength, DWORD dwRemoteAddressLength, LPDWORD lpdwBytesReceived, LPOVERLAPPED lpOverlapped)
 {
-	//return ...
 	return 0;
 }
-
+*/
 IocpManager::IocpManager() : mCompletionPort(NULL), mIoThreadCount(2), mListenSocket(NULL)
 {	
 }
