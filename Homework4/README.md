@@ -1,8 +1,5 @@
 # GSP 구현 과제 #4
 
-4월 27일 월요일 자정까지: (중간 고사 기간으로 인하여 하루 늦춰즘)
-(다음주 월요일은 휴강, 수요일 수업시간에 리뷰 및 C++ ADV 모두 할 예정)
-
 *멀티스레드 관련 서버 구현
 Timer, DoSync, LockOrder(TLS 사용), RWLock (FastSpinLock을 수정)
 Simple lock-free dispatcher (GCE)
