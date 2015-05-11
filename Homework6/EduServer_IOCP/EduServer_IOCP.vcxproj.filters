@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DatabaseHandling">
+      <UniqueIdentifier>{aa514e73-b977-4deb-ba48-fc0422ed6b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SessionHandling">
+      <UniqueIdentifier>{8af0146a-7484-4236-a9a7-5609799baf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{b8204af9-e7c6-4dc1-a487-84870b517819}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EduServer_IOCP.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="FastSpinlock.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLocal.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWalker.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHelper.h">
+      <Filter>DatabaseHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>DatabaseHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="DBThread.h">
+      <Filter>DatabaseHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="DBContext.h">
+      <Filter>DatabaseHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSession.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSessionManager.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpManager.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlappedIOContext.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSession.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="IOThread.h">
+      <Filter>SessionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDBContext.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsConfig.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLStatement.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="EduServer_IOCP.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FastSpinlock.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularBuffer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadLocal.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StackWalker.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHelper.cpp">
+      <Filter>DatabaseHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>DatabaseHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="DBThread.cpp">
+      <Filter>DatabaseHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="DBContext.cpp">
+      <Filter>DatabaseHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSessionManager.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpManager.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlappedIOContext.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSession.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="IOThread.cpp">
+      <Filter>SessionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDBContext.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SQL\GameDB.sql">
+      <Filter>Contents</Filter>
+    </None>
+  </ItemGroup>
+</Project>
