@@ -160,6 +160,7 @@ bool DummyClientSession::SendRequest(short packetType, const protobuf::MessageLi
 
 void DummyClientSession::Login()
 {
+	//TODO: 이 부분 테스트에 용이하게 고칠 것
 	static int id = 121;
 
 	MyPacket::LoginRequest loginRequest;
