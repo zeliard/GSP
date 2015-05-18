@@ -1,0 +1,58 @@
+
+package MyPacket;
+option optimize_for = LITE_RUNTIME;
+
+enum MessageType 
+{
+    PKT_CS_LOGIN = 1;
+	PKT_SC_LOGIN = 2;
+	
+	PKT_CS_CHAT = 3;
+	PKT_SC_CHAT = 4;
+	
+	PKT_CS_MOVE = 5;
+	PKT_SC_MOVE = 6;
+}
+
+message LoginRequest
+{
+    required int32 PlayerId = 1;
+}
+
+ message Position 
+ {
+    required float x = 1;
+    required float y = 2;
+	required float z = 3;
+ }
+	
+message LoginResult
+{
+    required int32 PlayerId = 1;
+	required string PlayerName = 2;
+	required Position PlayerPos = 3;
+}
+
+message ChatRequest
+{
+    required int32 PlayerId = 1;
+    required string PlayerMessage = 2;
+}
+
+message ChatResult
+{
+    required string PlayerName = 1;
+    required string PlayerMessage = 2;
+}
+
+message MoveRequest
+{
+    required int32 PlayerId = 1;
+	required Position PlayerPos = 2;
+}
+
+message MoveResult
+{
+    required int32 PlayerId = 1;
+	required Position PlayerPos = 2;
+}
