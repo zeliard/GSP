@@ -72,3 +72,11 @@ NHN NEXT 게임 서버 프로그래밍 학습을 위한 과제 위주의 코드�
 * [게임서버프로그래밍 #6 - 예외처리 및 로깅](http://www.slideshare.net/sm9kr/gsp-6)
 * [게임서버프로그래밍 #7 - 패킷핸들링 및 암호화](http://www.slideshare.net/sm9kr/gsp-7)
 * [게임서버프로그래밍 #8 - 성능 평가](http://www.slideshare.net/sm9kr/gsp-8)
+
+
+
+
+---
+###### Acknowledgement
+
+NHN NEXT 게임 전공의 전체 커리큘럼 구성에는 김종원(NCSOFT), 김주복(NEXON), 김현철(BLUEHOLE)님이 (가나다순) 도움을 주셨습니다.
